@@ -42,6 +42,15 @@ namespace _3KotOleksiiHomeWorkASPNet
         protected global::System.Web.UI.WebControls.Repeater repeaterProducts;
 
         /// <summary>
+        /// lblCardTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblCardTitle;
+
+        /// <summary>
         /// txtTitle control.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace _3KotOleksiiHomeWorkASPNet
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtTitle;
+
+        /// <summary>
+        /// validateRequiredTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator validateRequiredTitle;
 
         /// <summary>
         /// txtDescription control.
@@ -69,6 +87,15 @@ namespace _3KotOleksiiHomeWorkASPNet
         protected global::System.Web.UI.WebControls.TextBox txtCount;
 
         /// <summary>
+        /// validateRequiredCount control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator validateRequiredCount;
+
+        /// <summary>
         /// txtPrice control.
         /// </summary>
         /// <remarks>
@@ -76,6 +103,24 @@ namespace _3KotOleksiiHomeWorkASPNet
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPrice;
+
+        /// <summary>
+        /// validateRequiredPrice control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator validateRequiredPrice;
+
+        /// <summary>
+        /// validateAllFields control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary validateAllFields;
 
         /// <summary>
         /// btnAddProduct control.
